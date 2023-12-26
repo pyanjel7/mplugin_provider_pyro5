@@ -14,13 +14,18 @@ authors = [
 classifiers = [
     "Environment :: Plugins",
     "Development Status :: 2 - Pre-Alpha",
-	"Intended Audience :: Information Technology",
-    "Intended Audience :: System Administrators",
-    "Intended Audience :: Developers",
-    "Programming Language :: Python :: 3.11",
-    "Topic :: Software Development :: Libraries :: Python Modules",
     "Operating System :: Microsoft :: Windows",
-    "Operating System :: Posix"
+    "Operating System :: POSIX",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Clustering",
+    "Topic :: System :: Distributed Computing",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Networking",
 ]
 
 dependencies = [
