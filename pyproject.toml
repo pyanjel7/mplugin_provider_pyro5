@@ -32,7 +32,7 @@ dependencies = [
 Source = "https://github.com/pyanjel7/mplugin_provider_pyro5"
 
 [project.scripts]
-myrrh_pyro5s = "mplugins.scripts.server_script:main"
+myrrh_pyro5s = "mplugins.scripts.myrrh_pyro5s:main"
 
 [project.entry-points."myrrh.provider.registry"]
 "mplugins.provider.pyro5-provider" = "register_provider"
@@ -56,9 +56,16 @@ where = ["src"]
 namespaces = true
 
 [tool.setuptools_scm]
-write_to = "src/__version__.py"
+write_to = "src/mplugins/provider/pyro5/__version__.py"
 
 [tool.black]
 line_length = 300
 
 [tool.codespell]
+ignore-words-list = "inout, crasher, invokations, worl, te"
+
+[tool.mypy]
+disable_error_code = ["import-untyped", "import-not-found", "abstract"]
+allow_redefinition = true
+namespace_packages = false
+files = [ "src" ]
