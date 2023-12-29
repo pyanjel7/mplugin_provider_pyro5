@@ -74,7 +74,7 @@ os.getcwd()
 $ myrrhc
  Welcome to Myrrhc Console (for test purpose only)
   - Use it with fairplay -
-Type help, copyright, credits, license for more information
+Type help, credits, license for more information
 
 ctrl-D to exit console
 
